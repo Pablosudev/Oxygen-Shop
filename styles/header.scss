@@ -1,0 +1,51 @@
+.header{
+    text-align: center;
+    width: 375px;
+    
+
+
+         &__container{
+            width: 310px;
+            height: 213px;
+            margin-top: 100px;
+            margin-left:auto;
+            margin-right:auto;
+            position: relative;
+
+            &__title{
+                position: absolute;
+                text-align: center;
+                font-weight: 400;  
+                font-size: 35px;
+                margin-top: 0%;
+                margin-left: 73.59px;
+                color:black;
+            }
+            &__opening{
+                position: absolute;
+                width: 308px;
+                height: 57px;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 61px;
+            }
+            &__button{
+                margin-top: 146px;
+                width: 306px;
+                height: 67px;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 40px;
+                background-color: #08A6E4;
+                border: transparent;
+                color: white;
+                font-size: 16px;
+                font-weight:700;
+            }
+                
+        }
+        &__background{
+            margin-top: 51px;
+        }
+    }
