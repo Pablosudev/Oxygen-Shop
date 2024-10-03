@@ -1,16 +1,15 @@
 .navbar{
-    width: 375px;
+    width: 100%;
     height: 70px;
 
     &__title{
         display:inline-block;
-        width: 206px;
-        height: 37px;
         margin-top: 17px;
         margin-left: 25px;
         color: #08A6E4; 
         font-weight: 300;
         font-size: 32px;
+        font-family: "Raleway";
         line-height: 37px;
         position: absolute;
         margin-bottom: 0;

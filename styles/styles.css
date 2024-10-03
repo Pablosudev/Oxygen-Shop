@@ -9,18 +9,17 @@ body {
 }
 
 .navbar {
-  width: 375px;
+  width: 100%;
   height: 70px;
 }
 .navbar__title {
   display: inline-block;
-  width: 206px;
-  height: 37px;
   margin-top: 17px;
   margin-left: 25px;
   color: #08A6E4;
   font-weight: 300;
   font-size: 32px;
+  font-family: "Raleway";
   line-height: 37px;
   position: absolute;
   margin-bottom: 0;
@@ -35,7 +34,7 @@ body {
 
 .header {
   text-align: center;
-  width: 375px;
+  width: 100%;
 }
 .header__container {
   width: 310px;
@@ -52,7 +51,7 @@ body {
   font-size: 35px;
   margin-top: 0%;
   margin-left: 73.59px;
-  color: black;
+  color: rgb(145, 15, 15);
 }
 .header__container__opening {
   position: absolute;
