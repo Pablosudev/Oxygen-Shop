@@ -4,21 +4,20 @@
 
     &__title{
         display:inline-block;
-        margin-top: 17px;
-        margin-left: 25px;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
         color: #08A6E4; 
         font-weight: 300;
         font-size: 32px;
         font-family: "Raleway";
-        line-height: 37px;
         position: absolute;
-        margin-bottom: 0;
+        
     }
     &__image{
         display: inline-block;
-        width: 20px;
-        margin-top: 29px;
-        margin-left: 325px;
+        width: 1.5rem;
+        margin-top: 1.8rem;
+        margin-left: 86%;
         position: relative;
     }
 }
