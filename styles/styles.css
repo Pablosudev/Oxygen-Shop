@@ -251,43 +251,38 @@ body {
 }
 
 .article__basic {
-  width: 18.31rem;
-  height: 15.6rem;
   border: 1px solid #FB3B64;
   border-radius: 1.1rem;
   margin-left: 2.5rem;
 }
-.article__basic__container {
-  display: inline-block;
-}
-.article__basic__container__title {
+.article__basic__title {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 1.3rem;
   margin-left: 1.5rem;
   margin-top: 3rem;
+  position: relative;
 }
-.article__basic__container__pricing {
+.article__basic__pricing {
   font-family: "Open Sans";
   font-weight: 300;
   font-size: 2.8rem;
   line-height: 4rem;
   color: #FB3B64;
   margin-left: 1.5rem;
+  position: relative;
 }
-.article__basic__container__list {
-  display: inline;
+.article__basic__list {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.8rem;
   line-height: 1.2rem;
   text-align: start;
   list-style: none;
+  position: relative;
 }
 .article__basic__button {
-  width: 9.37rem;
-  height: 3.1rem;
   border-radius: 1.43rem;
   background-color: #EB476E;
   color: white;
@@ -296,6 +291,9 @@ body {
   font-size: 0.8rem;
   line-height: 1rem;
   border: transparent;
-  margin-top: 2.2rem;
   margin-left: 4.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }/*# sourceMappingURL=styles.css.map */
