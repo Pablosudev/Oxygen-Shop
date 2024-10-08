@@ -1,0 +1,90 @@
+.section{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+
+    &__title{
+        text-align: center;
+        font-family:"Raleway";
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 35px;
+        margin-top: 5%;
+    }
+    
+
+    &__EllipsePink{
+        text-align: center;
+        margin-top: 15%;
+        width: 4rem;
+        height: 4rem;
+        }
+    &__container{
+        width: 100%;
+        position: relative;
+
+        &__Ellipsepink{
+            margin-top: 15%;
+            width: 4rem;
+            height: 4rem;
+            }
+
+        &__Person{
+            position: absolute;
+            width: 2.7rem;
+            height: 3.2rem;
+            margin-top: 16%;
+            margin-left: 8%;
+            }
+    }
+    &__number{
+        font-family:"Raleway";
+        font-weight: 800;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        margin-top: 2%;
+    }
+    &__entries{
+        font-family: "Raleway";
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        color: #A5A5A5;
+        margin-top: 2%;
+    }
+     
+    .container__second{
+        width: 100%;
+        position:relative;
+        
+
+        &__eye{
+            position: absolute;
+            width: 4.2rem;
+            height: 2.3;
+            margin-top: 9%;
+            margin-left: 5%;
+        }
+        &__Ellipseblue{
+            margin-top: 6%;
+        }
+    }
+    
+    .container__third{
+        width: 100%;
+        position:relative;
+
+        &__Catalog{
+            position: absolute;
+            width: 3.2rem;
+            height: 3rem;
+            margin-top: 8%;
+            margin-left: 9%;
+        }
+        &__Ellipsegreen{
+            margin-top: 6%;
+            
+        }
+    }
+}
+    

@@ -1,0 +1,103 @@
+.sectioncard{
+    background-color: #f7f7f7;
+    width: 100%;
+    max-height: 87rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+
+   &__cardfirst{
+    background-color: white;
+    margin-left: 1.7rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    border: 1px solid #E8E9ED;
+    border-radius: 2%;
+    position: relative;
+   
+
+    &__macbook{
+        margin-top: 2.5rem;
+        margin-left: 0.4rem;
+        position: absolute;
+    }
+
+    &__rectanglepink{
+        margin-top: 1.3rem;
+        margin-left: 7rem;
+        
+    }
+
+    &__title{
+        font-family: "Raleway";
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        margin-top: 4rem;
+        margin-right: 5rem;
+    }
+    &__text{
+        font-family: "Open Sans";
+        font-weight: 400;
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        text-align: start;
+        margin-top: 2rem;
+        margin-left: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    &__iphone{
+        width: 10.9rem;
+        height: 8.4rem;
+        margin-top: 1.5rem;
+        position: absolute;
+    }
+
+    &__ellipseblue{
+        width: 8.25rem;
+        height: 8.23rem;
+        margin-top: 1rem;
+    }
+
+    &__titlesecond{
+        font-family: "Raleway";
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        margin-top: 1.5rem;
+        text-align: start;
+        margin-left: 1.4rem;
+    }
+
+    &__secondtext{
+        text-align: start;
+        font-family: "Open Sans";
+        font-weight: 400;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        margin-top: 1rem;
+        margin-left: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+   }
+
+   &__cardthird{
+        
+        background-color: white;
+        margin-left: 1.7rem;
+        margin-right: 2rem;
+        margin-bottom: 3rem;
+        border: 1px solid #E8E9ED;
+        border-radius: 2%;
+
+        &__trumpet{
+            position: absolute;
+            width: 18.48rem;
+            height: 13rem;
+            margin-top: 2.5rem;
+        }
+   }
+}
