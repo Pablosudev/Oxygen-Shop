@@ -1,6 +1,7 @@
 .section{
     width: 100%;
     text-align: center;
+    background-color: white;
 
     &__title{
         text-align: center;
@@ -18,7 +19,7 @@
         width: 4rem;
         height: 4rem;
         }
-    .container{
+    &__container{
         width: 100%;
         position: relative;
 

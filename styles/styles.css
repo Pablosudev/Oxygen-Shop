@@ -11,7 +11,7 @@ body {
 .navbar {
   width: 100%;
   height: 70px;
-  box-shadow: 0rem 0.2rem rgb(191, 191, 191);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
 }
 .navbar__title {
   display: inline-block;
@@ -19,7 +19,7 @@ body {
   margin-left: 1.5rem;
   color: #08A6E4;
   font-weight: 300;
-  font-size: 32px;
+  font-size: 2rem;
   font-family: "Raleway";
   position: absolute;
 }
@@ -38,32 +38,32 @@ body {
 .header__title {
   text-align: center;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 2.1rem;
   margin-top: 15%;
   color: black;
 }
 .header__opening {
   text-align: center;
   font-family: "Open Sans";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 1.4rem;
   margin-top: 5%;
   margin-left: 2%;
 }
 .header__button {
   margin-top: 6%;
-  width: 306px;
-  height: 67px;
+  width: 19.1rem;
+  height: 4.1rem;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 40px;
+  border-radius: 2.5rem;
   background-color: #08A6E4;
   border: transparent;
   color: white;
   font-size: 16px;
   font-weight: 700;
-  box-shadow: 0.2rem 0.4rem rgb(215, 252, 254);
+  box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
 }
 .header__image {
   margin-top: 15%;
@@ -72,6 +72,7 @@ body {
 .section {
   width: 100%;
   text-align: center;
+  background-color: white;
 }
 .section__title {
   text-align: center;
@@ -87,16 +88,16 @@ body {
   width: 4rem;
   height: 4rem;
 }
-.section .container {
+.section__container {
   width: 100%;
   position: relative;
 }
-.section .container__Ellipsepink {
+.section__container__Ellipsepink {
   margin-top: 15%;
   width: 4rem;
   height: 4rem;
 }
-.section .container__Person {
+.section__container__Person {
   position: absolute;
   width: 2.7rem;
   height: 3.2rem;
@@ -147,8 +148,8 @@ body {
   margin-top: 6%;
 }
 
-.section {
-  background-color: #F7F7F7;
+.sectioncard {
+  background-color: #f7f7f7;
   width: 100%;
   max-height: 87rem;
   padding-top: 2rem;
@@ -156,27 +157,25 @@ body {
   margin-top: 3rem;
   text-align: center;
 }
-.section__cardfirst {
-  width: 19.8rem;
-  height: 23.1rem;
+.sectioncard__cardfirst {
   background-color: white;
   margin-left: 1.7rem;
   margin-right: 2rem;
   margin-bottom: 3rem;
-  border: 0.1rem solid rgb(200, 200, 200);
+  border: 1px solid #E8E9ED;
   border-radius: 2%;
   position: relative;
 }
-.section__cardfirst__macbook {
+.sectioncard__cardfirst__macbook {
   margin-top: 2.5rem;
   margin-left: 0.4rem;
   position: absolute;
 }
-.section__cardfirst__rectanglepink {
+.sectioncard__cardfirst__rectanglepink {
   margin-top: 1.3rem;
   margin-left: 7rem;
 }
-.section__cardfirst__title {
+.sectioncard__cardfirst__title {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 1.8rem;
@@ -184,7 +183,7 @@ body {
   margin-top: 4rem;
   margin-right: 5rem;
 }
-.section__cardfirst__text {
+.sectioncard__cardfirst__text {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.8rem;
@@ -192,19 +191,20 @@ body {
   text-align: start;
   margin-top: 2rem;
   margin-left: 1.4rem;
+  margin-bottom: 1rem;
 }
-.section__cardfirst__iphone {
+.sectioncard__cardfirst__iphone {
   width: 10.9rem;
   height: 8.4rem;
   margin-top: 1.5rem;
   position: absolute;
 }
-.section__cardfirst__ellipseblue {
+.sectioncard__cardfirst__ellipseblue {
   width: 8.25rem;
   height: 8.23rem;
   margin-top: 1rem;
 }
-.section__cardfirst__titlesecond {
+.sectioncard__cardfirst__titlesecond {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 1.8rem;
@@ -213,7 +213,7 @@ body {
   text-align: start;
   margin-left: 1.4rem;
 }
-.section__cardfirst__secondtext {
+.sectioncard__cardfirst__secondtext {
   text-align: start;
   font-family: "Open Sans";
   font-weight: 400;
@@ -223,77 +223,342 @@ body {
   margin-left: 1.4rem;
   margin-bottom: 2rem;
 }
-.section__cardthird {
-  width: 19.8rem;
-  height: 29.5rem;
+.sectioncard__cardthird {
   background-color: white;
   margin-left: 1.7rem;
   margin-right: 2rem;
   margin-bottom: 3rem;
-  border: 0.1rem solid rgb(200, 200, 200);
+  border: 1px solid #E8E9ED;
   border-radius: 2%;
-  position: relative;
 }
-.section__cardthird__trumpet {
+.sectioncard__cardthird__trumpet {
   position: absolute;
   width: 18.48rem;
   height: 13rem;
   margin-top: 2.5rem;
 }
 
-.title__princings {
+.title__price {
   text-align: center;
+  margin-top: 2rem;
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 3.6rem;
-  margin-top: 3rem;
 }
 
 .article__basic {
   border: 1px solid #FB3B64;
   border-radius: 1.1rem;
-  margin-left: 2.5rem;
+  position: relative;
+  width: 18rem;
+  height: 15rem;
+  margin-left: 2.56rem;
+  margin-top: 2rem;
 }
 .article__basic__title {
+  margin-top: 4.37rem;
+  margin-left: 3.1rem;
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 1.2rem;
-  line-height: 1.3rem;
-  margin-left: 1.5rem;
-  margin-top: 3rem;
-  position: relative;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: #13253B;
+  position: absolute;
 }
-.article__basic__pricing {
+.article__basic__price {
   font-family: "Open Sans";
   font-weight: 300;
   font-size: 2.8rem;
   line-height: 4rem;
   color: #FB3B64;
-  margin-left: 1.5rem;
-  position: relative;
+  margin-left: 2.8rem;
+  margin-top: 6rem;
+  position: absolute;
 }
 .article__basic__list {
+  margin-left: 10rem;
+  margin-top: 4rem;
+  list-style: none;
+  position: absolute;
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.8rem;
   line-height: 1.2rem;
-  text-align: start;
-  list-style: none;
-  position: relative;
+}
+.article__basic__list__date {
+  margin-bottom: 0.5rem;
 }
 .article__basic__button {
-  border-radius: 1.43rem;
-  background-color: #EB476E;
+  position: absolute;
+  border-radius: 1.5rem;
+  background: #EB476E;
+  border: transparent;
   color: white;
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 0.8rem;
-  line-height: 1rem;
-  border: transparent;
-  margin-left: 4.3rem;
+  line-height: 1.1rem;
+  padding-left: 3.3rem;
+  padding-right: 3.3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  margin-top: 13.2rem;
+  margin-left: 4.5rem;
+}
+
+.article__professional {
+  position: relative;
+  margin-top: 3rem;
+  border: 1px solid #07ACE6;
+  border-radius: 1.1rem;
+  box-shadow: 5px 10px 27px 0px rgba(7, 172, 230, 0.2901960784);
+  width: 21.18rem;
+  height: 17.31rem;
+  margin-left: 1rem;
+}
+.article__professional__title {
+  position: absolute;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+.article__professional__price {
+  position: absolute;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 2.8rem;
+  line-height: 3.7rem;
+  color: #07ACE6;
+  margin-top: 6rem;
+  margin-left: 2rem;
+}
+.article__professional__offer {
+  position: absolute;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  margin-top: 10rem;
+  margin-left: 2rem;
+}
+.article__professional__list {
+  position: absolute;
+  margin-left: 13rem;
+  margin-top: 4rem;
+  list-style: none;
+  position: absolute;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+.article__professional__list__date {
+  margin-bottom: 0.5rem;
+}
+.article__professional__button {
+  position: absolute;
+  border-radius: 1.5rem;
+  background: #07ACE6;
+  border: transparent;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  padding-left: 3.6rem;
+  padding-right: 3.6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 15.7rem;
+  margin-left: 5.9rem;
+  box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+}
+
+.article__premium {
+  position: relative;
+  width: 18.3rem;
+  height: 15.6rem;
+  border: 1px solid #55DFB4;
+  border-radius: 1.1rem;
+  margin-top: 4rem;
+  margin-left: 2.56rem;
+}
+.article__premium__title {
+  position: absolute;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-top: 5.5rem;
+  margin-left: 3.1rem;
+}
+.article__premium__price {
+  position: absolute;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 2.87rem;
+  line-height: 3.8rem;
+  color: #55DFB4;
+  margin-left: 3.1rem;
+  margin-top: 7rem;
+}
+.article__premium__offer {
+  position: absolute;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  margin-top: 11rem;
+  margin-left: 3.3rem;
+}
+.article__premium__list {
+  position: absolute;
+  margin-left: 11rem;
+  margin-top: 4rem;
+  list-style: none;
+  position: absolute;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+.article__premium__list__date {
+  margin-bottom: 0.5rem;
+}
+
+.section__question__title {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+  margin-left: 1.8rem;
+  margin-top: 3rem;
+}
+.section__question__date {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-left: 1.8rem;
+}
+.section__question__mail {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #A5A5A5;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.section__question__phone {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #A5A5A5;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+.section__question__name {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 0.68rem;
+  line-height: 0.93rem;
+  color: #08A6E4;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+.section__question__name__input {
+  border: 1px solid #95989A;
+  margin-left: 2rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 19.5rem;
+}
+.section__question__email {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 0.68rem;
+  line-height: 0.93rem;
+  color: #08A6E4;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+.section__question__email__input {
+  border: 1px solid #95989A;
+  margin-left: 2rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 19.5rem;
+}
+.section__question__checkbox {
+  position: absolute;
+  margin-left: 1.5rem;
+  margin-top: 0.2rem;
+}
+.section__question__consent {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #707070;
+  margin-top: 2rem;
+  margin-left: 3.75rem;
+}
+.section__question__button {
+  border-radius: 2.18rem;
+  background: #08A6E4;
+  color: white;
+  box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+  border: transparent;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  margin-left: 7.25rem;
+  margin-top: 2rem;
+}
+
+.footer {
+  box-shadow: 0px -5px 40px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+.footer__article {
+  position: relative;
+  display: inline-block;
+}
+.footer__article__title {
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: #08A6E4;
+}
+.footer__article__copyright {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 0.68rem;
+  line-height: 0.93rem;
+  color: #A5A5A5;
+  margin-top: 0.7rem;
+  margin-left: 1rem;
+}
+.footer__facebook {
+  margin-left: 18rem;
+  margin-top: 2rem;
+  position: absolute;
+}
+.footer__twitter {
+  margin-left: 15.31rem;
+  margin-top: 2rem;
+  position: absolute;
 }/*# sourceMappingURL=styles.css.map */
