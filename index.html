@@ -25,9 +25,9 @@
     </header>
     <section class="section">
         <h1 class="section__title">The most popular <br> sales platform in <br> country</h1>
-        <article class="container">
-            <img class="container__Person" src="Imagenes/Article/Person 2.png" alt="Person"/>
-            <img class="container__Ellipsepink" src="Imagenes/Article/Ellipse 1.png" alt="Ellipse pink"/>
+        <article class="section__container">
+            <img class="section__container__Person" src="Imagenes/Article/Person 2.png" alt="Person"/>
+            <img class="section__container__Ellipsepink" src="Imagenes/Article/Ellipse 1.png" alt="Ellipse pink"/>
         </article>
         <p class="section__number">100000 +</p>
         <p class="section__entries">daily entries</p>
@@ -58,8 +58,10 @@
             <p class="sectioncard__cardfirst__secondtext">Lorem ipsum dolor sit amet, consectetur <br> adispiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam</p>
         </article>
         <article class="sectioncard__cardthird">
-            <h1 class="sectioncard__cardfirst__titlesecond">Increase <br> recognition your <br> brand!</h1>
-            <p class="sectioncard__cardfirst__secondtext">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut <br> labore et dolore magna aliqua. Ut <br> enim ad minim veniam.</p>
+            <div class="sectioncard__cardthird__text">
+                <h1 class="sectioncard__cardthird__text__title">Increase <br> recognition your <br> brand!</h1>
+                <p class="sectioncard__cardthird__text__date">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut <br> labore et dolore magna aliqua. Ut <br> enim ad minim veniam.</p>
+            </div>
             <img class="sectioncard__cardthird__trumpet" src="Imagenes/Section/Trumpet 2.png" alt="Trumpet"/>
             <img src="Imagenes/Section/Rectangle 6.png" alt="rectanglegreen"/>
         </article>
@@ -104,28 +106,44 @@
             </ul>
         </article>
     </section>
+
     <section class="section__question">
         <h2 class="section__question__title">Any questions?</h2>
         <p class="section__question__date">Leave your email address or call us!</p>
-        <p class="section__question__mail"><img src="Imagenes/Imput/Mail Icon 2.png" alt="Logo mail"/> info@bestshop.xyz</p>
-        <p class="section__question__phone"><img src="Imagenes/Imput/Phone Icon 2.png" alt="Logo phone"/>123 456 789</p>
-        <p class="section__question__name">N A M E</p>
-        <input class="section__question__name__input" type="text" id="name"/>
-        <p class="section__question__email">E M A I L</p>
-        <input class="section__question__email__input" type="email" id="email"/>
+
+        <div class="section__question__container">
+            <img class="section__question__container__logo" src="Imagenes/Imput/Mail Icon 2.png" alt="Logo mail"/>
+            <p class="section__question__container__date"> info@bestshop.xyz</p> 
+        </div>
+        <div class="section__question__container">
+            <img class="section__question__container__logo" src="Imagenes/Imput/Phone Icon 2.png" alt="Logo phone"/>
+            <p class="section__question__container__date">123 456 789</p>
+        </div>
+
+        <div class="section__question__box">
+            <label class="section__question__box__name">N A M E</label>
+            <input class="section__question__box__name__input" type="text" id="name"/>
+            <label class="section__question__box__name">E M A I L</label>
+            <input class="section__question__box__name__input" type="email" id="email"/>
+        </div>
+        
+
         <article>
             <img class="section__question__checkbox" src="Imagenes/Imput/Checkbox.png" alt="Checkbox"/>
             <p class="section__question__consent">I hereby give consent for my personal data <br> included in my application to be processed for <br> the purposes of the recruitment process under <br> the European Parliament’s and Council of the <br> European Union Regulation on the Protection of <br> Natural Persons as of 27 April 2016, with regard <br> to the processing of personal data and on the <br> free movement of such data, and repealing <br> Directive 95/46/EC (Data Protection Directive)</p>
             <button class="section__question__button">Send</button>
         </article>
+
     </section>
+
     <footer class="footer">
         <img class="footer__facebook" src="Imagenes/Footer/Facebook (3) 2.png" alt="Logo Facebook"/>
         <img class="footer__twitter" src="Imagenes/Footer/Twitter (2) 2.png" alt="Logo Twitter"/>  
-        <article class="footer__article">
-            <h2 class="footer__article__title">OXIGENShop</h2>
-            <p class="footer__article__copyright">2022 OXYGEN, All Rights Reserved</p>
-        </article>
+        <div class="footer__container">
+            <h2 class="footer__container__title">OXIGENShop</h2>
+            <p class="footer__container__copyright">2022 OXYGEN, All Rights Reserved</p>
+        </div>
     </footer>
+
 </body>
 </html>
