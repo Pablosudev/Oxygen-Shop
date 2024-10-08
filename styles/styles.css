@@ -72,6 +72,7 @@ body {
 .section {
   width: 100%;
   text-align: center;
+  background-color: white;
 }
 .section__title {
   text-align: center;
@@ -147,8 +148,8 @@ body {
   margin-top: 6%;
 }
 
-.section {
-  background-color: #F7F7F7;
+.sectioncard {
+  background-color: #f7f7f7;
   width: 100%;
   max-height: 87rem;
   padding-top: 2rem;
@@ -156,27 +157,27 @@ body {
   margin-top: 3rem;
   text-align: center;
 }
-.section__cardfirst {
+.sectioncard__cardfirst {
   width: 19.8rem;
   height: 23.1rem;
   background-color: white;
   margin-left: 1.7rem;
   margin-right: 2rem;
   margin-bottom: 3rem;
-  border: 0.1rem solid rgb(200, 200, 200);
+  border: 1px solid #E8E9ED;
   border-radius: 2%;
   position: relative;
 }
-.section__cardfirst__macbook {
+.sectioncard__cardfirst__macbook {
   margin-top: 2.5rem;
   margin-left: 0.4rem;
   position: absolute;
 }
-.section__cardfirst__rectanglepink {
+.sectioncard__cardfirst__rectanglepink {
   margin-top: 1.3rem;
   margin-left: 7rem;
 }
-.section__cardfirst__title {
+.sectioncard__cardfirst__title {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 1.8rem;
@@ -184,7 +185,7 @@ body {
   margin-top: 4rem;
   margin-right: 5rem;
 }
-.section__cardfirst__text {
+.sectioncard__cardfirst__text {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.8rem;
@@ -193,18 +194,18 @@ body {
   margin-top: 2rem;
   margin-left: 1.4rem;
 }
-.section__cardfirst__iphone {
+.sectioncard__cardfirst__iphone {
   width: 10.9rem;
   height: 8.4rem;
   margin-top: 1.5rem;
   position: absolute;
 }
-.section__cardfirst__ellipseblue {
+.sectioncard__cardfirst__ellipseblue {
   width: 8.25rem;
   height: 8.23rem;
   margin-top: 1rem;
 }
-.section__cardfirst__titlesecond {
+.sectioncard__cardfirst__titlesecond {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 1.8rem;
@@ -213,7 +214,7 @@ body {
   text-align: start;
   margin-left: 1.4rem;
 }
-.section__cardfirst__secondtext {
+.sectioncard__cardfirst__secondtext {
   text-align: start;
   font-family: "Open Sans";
   font-weight: 400;
@@ -223,7 +224,7 @@ body {
   margin-left: 1.4rem;
   margin-bottom: 2rem;
 }
-.section__cardthird {
+.sectioncard__cardthird {
   width: 19.8rem;
   height: 29.5rem;
   background-color: white;
@@ -234,7 +235,7 @@ body {
   border-radius: 2%;
   position: relative;
 }
-.section__cardthird__trumpet {
+.sectioncard__cardthird__trumpet {
   position: absolute;
   width: 18.48rem;
   height: 13rem;
@@ -431,4 +432,137 @@ body {
 }
 .article__premium__list__date {
   margin-bottom: 0.5rem;
+}
+
+.section__question__title {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+  margin-left: 1.8rem;
+  margin-top: 3rem;
+}
+.section__question__date {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-left: 1.8rem;
+}
+.section__question__mail {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #A5A5A5;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.section__question__phone {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #A5A5A5;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+.section__question__name {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 0.68rem;
+  line-height: 0.93rem;
+  color: #08A6E4;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+.section__question__name__input {
+  border: 1px solid #95989A;
+  margin-left: 2rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 19.5rem;
+}
+.section__question__email {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 0.68rem;
+  line-height: 0.93rem;
+  color: #08A6E4;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+.section__question__email__input {
+  border: 1px solid #95989A;
+  margin-left: 2rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 19.5rem;
+}
+.section__question__checkbox {
+  position: absolute;
+  margin-left: 1.5rem;
+  margin-top: 0.2rem;
+}
+.section__question__consent {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #707070;
+  margin-top: 2rem;
+  margin-left: 3.75rem;
+}
+.section__question__button {
+  border-radius: 2.18rem;
+  background: #08A6E4;
+  color: white;
+  box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+  border: transparent;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  margin-left: 7.25rem;
+  margin-top: 2rem;
+}
+
+.footer {
+  box-shadow: 0px -5px 40px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+.footer__article {
+  position: relative;
+  display: inline-block;
+}
+.footer__article__title {
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: #08A6E4;
+}
+.footer__article__copyright {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 0.68rem;
+  line-height: 0.93rem;
+  color: #A5A5A5;
+  margin-top: 0.7rem;
+  margin-left: 1rem;
+}
+.footer__facebook {
+  margin-left: 18rem;
+  margin-top: 2rem;
+  position: absolute;
+}
+.footer__twitter {
+  margin-left: 15.31rem;
+  margin-top: 2rem;
+  position: absolute;
 }/*# sourceMappingURL=styles.css.map */
