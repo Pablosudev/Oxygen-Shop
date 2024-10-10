@@ -45,6 +45,7 @@
         text-align: start;
         margin-top: 2rem;
         margin-left: 1.4rem;
+        margin-right: 2rem;
         margin-bottom: 1rem;
     }
 
@@ -79,12 +80,13 @@
         line-height: 1.2rem;
         margin-top: 1rem;
         margin-left: 1.4rem;
+        margin-right: 2rem;
         margin-bottom: 2rem;
     }
 
    }
 
-   &__cardthird{
+   &__cardthird{   
 
         margin-left: 1.7rem;
         margin-right: 2rem;
@@ -127,4 +129,11 @@
             margin-bottom: 3rem;
         }
    }
+}
+@media screen and (min-width: 1000px){
+
+    .sectioncard{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

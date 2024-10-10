@@ -10,6 +10,8 @@
         font-weight: 300;
         line-height: 35px;
         margin-top: 5%;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     
 
@@ -33,8 +35,8 @@
             position: absolute;
             width: 2.7rem;
             height: 3.2rem;
-            margin-top: 16%;
-            margin-left: 8%;
+            margin-top: 3.6rem;
+            margin-left:2rem;
             }
     }
     &__number{
@@ -42,7 +44,7 @@
         font-weight: 800;
         font-size: 1.3rem;
         line-height: 1.5rem;
-        margin-top: 2%;
+        margin-top: 1rem;
     }
     &__entries{
         font-family: "Raleway";
@@ -50,7 +52,7 @@
         font-size: 1.2rem;
         line-height: 1.5rem;
         color: #A5A5A5;
-        margin-top: 2%;
+        margin-top: 1rem;
     }
      
     .container__second{
@@ -62,11 +64,11 @@
             position: absolute;
             width: 4.2rem;
             height: 2.3;
-            margin-top: 9%;
-            margin-left: 5%;
+            margin-top: 2.2rem;
+            margin-left: 1.3rem;
         }
         &__Ellipseblue{
-            margin-top: 6%;
+            margin-top: 1.5rem;
         }
     }
     
@@ -78,13 +80,41 @@
             position: absolute;
             width: 3.2rem;
             height: 3rem;
-            margin-top: 8%;
-            margin-left: 9%;
+            margin-top: 1.6rem;
+            margin-left: 2rem;
         }
         &__Ellipsegreen{
-            margin-top: 6%;
+            margin-top: 1.5rem;
             
         }
     }
 }
+
+@media screen and (min-width: 1000px){
+
+
+    .section{
     
+        &__title{
+            font-weight: 400;
+            font-size: 2.2rem;
+            line-height: 2.6rem;
+           
+        }
+        
+        &__prueba{
+            display: flex;
+            justify-content: center;
+            margin-top: 4rem;
+
+            &__container{
+
+                &__person{
+                    margin-top: 20rem;
+                }
+            }
+        }
+
+    }
+    
+}
