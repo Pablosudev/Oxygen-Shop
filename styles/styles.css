@@ -152,9 +152,7 @@ body {
   }
 }
 .section {
-  width: 100%;
   text-align: center;
-  background-color: white;
 }
 .section__title {
   text-align: center;
@@ -166,18 +164,12 @@ body {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-.section__EllipsePink {
-  text-align: center;
-  margin-top: 15%;
-  width: 4rem;
-  height: 4rem;
-}
 .section__container {
   width: 100%;
   position: relative;
 }
 .section__container__Ellipsepink {
-  margin-top: 15%;
+  margin-top: 1.6rem;
   width: 4rem;
   height: 4rem;
 }
@@ -185,8 +177,8 @@ body {
   position: absolute;
   width: 2.7rem;
   height: 3.2rem;
-  margin-top: 3.6rem;
-  margin-left: 2rem;
+  right: 39%;
+  top: 15%;
 }
 .section__number {
   font-family: "Raleway";
@@ -241,25 +233,22 @@ body {
   .section__prueba {
     display: flex;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 5rem;
   }
-  .section__prueba__container__person {
-    margin-top: 20rem;
+  .section__container__Person {
+    right: 43%;
   }
 }
 .sectioncard {
   background-color: #f7f7f7;
   width: 100%;
   max-height: 87rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem;
   margin-top: 3rem;
   text-align: center;
 }
 .sectioncard__cardfirst {
   background-color: white;
-  margin-left: 1.7rem;
-  margin-right: 2rem;
   margin-bottom: 3rem;
   border: 1px solid #E8E9ED;
   border-radius: 2%;
@@ -325,8 +314,6 @@ body {
   margin-bottom: 2rem;
 }
 .sectioncard__cardthird {
-  margin-left: 1.7rem;
-  margin-right: 2rem;
   margin-bottom: 3rem;
 }
 .sectioncard__cardthird__text {
@@ -353,7 +340,7 @@ body {
   margin-left: 1.4rem;
   margin-bottom: 2rem;
 }
-.sectioncard__cardthird__trumpet {
+.sectioncard__cardthird__img__trumpet {
   position: absolute;
   width: 18.48rem;
   height: 13rem;
@@ -363,8 +350,30 @@ body {
 
 @media screen and (min-width: 1000px) {
   .sectioncard {
+    padding-left: 15.6rem;
+    padding-right: 15.6rem;
+    padding-top: 6rem;
+  }
+  .sectioncard__cardthird {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .sectioncard__cardthird__text {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    width: 60%;
+  }
+  .sectioncard__cardthird__img {
+    display: inline-flex;
+    justify-content: end;
+    max-width: 27.5rem;
+    position: relative;
+  }
+  .sectioncard__cardthird__img__trumpet {
+    right: 23%;
+    top: 10%;
   }
 }
 .title__price {
@@ -441,7 +450,6 @@ body {
   margin-top: 3rem;
   border: 1px solid #07ACE6;
   border-radius: 1.1rem;
-  box-shadow: 5px 10px 27px 0px rgba(7, 172, 230, 0.2901960784);
   width: 21.18rem;
   height: 17.31rem;
   margin-left: 1rem;
@@ -559,6 +567,23 @@ body {
   margin-bottom: 0.5rem;
 }
 
+@media screen and (min-width: 1000px) {
+  .article {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .article__basic {
+    margin: 0%;
+  }
+  .article__professional {
+    margin: 0%;
+  }
+  .article__premium {
+    margin: 0%;
+  }
+}
 .section__question__title {
   font-family: "Raleway";
   font-weight: 400;

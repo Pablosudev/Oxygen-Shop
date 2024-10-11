@@ -76,7 +76,6 @@
     margin-top: 3rem;
     border: 1px solid #07ACE6;
     border-radius: 1.1rem;
-    box-shadow: 5px 10px 27px 0px #07ACE64A;
     width: 21.18rem;
     height: 17.31rem;
     margin-left: 1rem;
@@ -200,6 +199,29 @@
 
         &__date{
             margin-bottom: 0.5rem ;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .article{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 8rem;
+        padding-right: 8rem;
+
+        
+        &__basic{
+            margin: 0%;
+        }
+            
+
+        &__professional{
+            margin: 0%;
+        }
+
+        &__premium{
+            margin: 0%;
         }
     }
 }
