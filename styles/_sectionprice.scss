@@ -67,8 +67,8 @@
         padding-right: 3.3rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
-        margin-top: 13.2rem;
-        margin-left: 4.5rem;
+        left: 25%;
+        bottom: -10%;
     }
 }
 .article__professional{
@@ -139,9 +139,8 @@
         padding-right: 3.6rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
-        margin-top: 15.7rem;
-        margin-left: 5.9rem;
-        box-shadow: 5px 10px 14px 0px #07ACE64A;
+        left: 27%;
+        bottom: -10%;
     }
 }
 
@@ -200,6 +199,24 @@
         &__date{
             margin-bottom: 0.5rem ;
         }
+    }
+
+    &__button{
+        position: absolute;
+        border-radius: 1.5rem;
+        background: #55DFB4;
+        border: transparent;
+        color: white;
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+        padding-left: 3.3rem;
+        padding-right: 3.3rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        left: 25%;
+        bottom: -10%;
     }
 }
 

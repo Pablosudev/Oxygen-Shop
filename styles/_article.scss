@@ -86,6 +86,9 @@
 
 
     .section{
+
+        padding-left: 25rem;
+        padding-right: 25rem;
     
         &__title{
             font-weight: 400;
@@ -103,7 +106,7 @@
         &__container{
 
             &__Person{
-                right: 43%;
+                right: 38%;
             }
         }
 

@@ -41,3 +41,21 @@
         position: absolute;
     }
 }
+
+@media screen and (min-width: 1000px){
+
+    .footer__container__title{
+        display: none;
+    }
+
+    .footer__container__title2{
+        font-family: "Raleway";
+            font-weight: 300;
+            font-size: 1.6rem;
+            line-height: 1.8rem;
+            margin-top: 1rem;
+            margin-left: 1rem;;
+            color: #08A6E4;
+    }
+}
+    

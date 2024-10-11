@@ -225,6 +225,10 @@ body {
 }
 
 @media screen and (min-width: 1000px) {
+  .section {
+    padding-left: 25rem;
+    padding-right: 25rem;
+  }
   .section__title {
     font-weight: 400;
     font-size: 2.2rem;
@@ -236,7 +240,7 @@ body {
     margin-top: 5rem;
   }
   .section__container__Person {
-    right: 43%;
+    right: 38%;
   }
 }
 .sectioncard {
@@ -441,8 +445,8 @@ body {
   padding-right: 3.3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-top: 13.2rem;
-  margin-left: 4.5rem;
+  left: 25%;
+  bottom: -10%;
 }
 
 .article__professional {
@@ -510,9 +514,8 @@ body {
   padding-right: 3.6rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-top: 15.7rem;
-  margin-left: 5.9rem;
-  box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+  left: 27%;
+  bottom: -10%;
 }
 
 .article__premium {
@@ -565,6 +568,23 @@ body {
 }
 .article__premium__list__date {
   margin-bottom: 0.5rem;
+}
+.article__premium__button {
+  position: absolute;
+  border-radius: 1.5rem;
+  background: #55DFB4;
+  border: transparent;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  padding-left: 3.3rem;
+  padding-right: 3.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  left: 25%;
+  bottom: -10%;
 }
 
 @media screen and (min-width: 1000px) {
@@ -701,4 +721,19 @@ body {
   margin-left: 15.31rem;
   margin-top: 2rem;
   position: absolute;
+}
+
+@media screen and (min-width: 1000px) {
+  .footer__container__title {
+    display: none;
+  }
+  .footer__container__title2 {
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #08A6E4;
+  }
 }/*# sourceMappingURL=styles.css.map */
