@@ -17,6 +17,10 @@
             margin-left: 1rem;;
             color: #08A6E4;
         }
+
+        &__title2{
+            display: none;
+        }
     
         &__copyright{
             font-family: "Open Sans";
@@ -42,20 +46,34 @@
     }
 }
 
+
 @media screen and (min-width: 1000px){
 
-    .footer__container__title{
-        display: none;
+
+    .footer__container{     
+            margin-left: 4rem;
+
+        .footer__container__title{
+            display: none;
+        }
+    
+        .footer__container__title2{
+            font-family: "Raleway";
+                font-weight: 300;
+                font-size: 1.6rem;
+                line-height: 1.8rem;
+                margin-top: 1rem;
+                margin-left: 1rem;;
+                color: #08A6E4;
+                display: block;
+        }
     }
 
-    .footer__container__title2{
-        font-family: "Raleway";
-            font-weight: 300;
-            font-size: 1.6rem;
-            line-height: 1.8rem;
-            margin-top: 1rem;
-            margin-left: 1rem;;
-            color: #08A6E4;
+    .footer__twitter{
+        right: 13%;
     }
-}
+    .footer__facebook{
+        right: 9%;
+    }
+    }
     

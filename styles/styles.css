@@ -354,14 +354,16 @@ body {
 
 @media screen and (min-width: 1000px) {
   .sectioncard {
-    padding-left: 15.6rem;
-    padding-right: 15.6rem;
     padding-top: 6rem;
+  }
+  .sectioncard__cardfirst {
+    width: 70%;
+    margin-left: 15%;
   }
   .sectioncard__cardthird {
     display: inline-flex;
     justify-content: space-between;
-    width: 100%;
+    width: 70%;
   }
   .sectioncard__cardthird__text {
     display: flex;
@@ -395,12 +397,12 @@ body {
   position: relative;
   width: 18rem;
   height: 15rem;
-  margin-left: 2.56rem;
   margin-top: 2rem;
+  margin-left: 3rem;
 }
 .article__basic__title {
-  margin-top: 4.37rem;
-  margin-left: 3.1rem;
+  top: 30%;
+  left: 17%;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 1.1rem;
@@ -414,13 +416,13 @@ body {
   font-size: 2.8rem;
   line-height: 4rem;
   color: #FB3B64;
-  margin-left: 2.8rem;
-  margin-top: 6rem;
+  bottom: 37%;
+  left: 14%;
   position: absolute;
 }
 .article__basic__list {
-  margin-left: 10rem;
-  margin-top: 4rem;
+  right: 3%;
+  top: 25%;
   list-style: none;
   position: absolute;
   font-family: "Open Sans";
@@ -452,11 +454,11 @@ body {
 .article__professional {
   position: relative;
   margin-top: 3rem;
+  margin-left: 3rem;
   border: 1px solid #07ACE6;
   border-radius: 1.1rem;
-  width: 21.18rem;
-  height: 17.31rem;
-  margin-left: 1rem;
+  width: 18rem;
+  height: 15rem;
 }
 .article__professional__title {
   position: absolute;
@@ -464,8 +466,8 @@ body {
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.5rem;
-  margin-top: 5rem;
-  margin-left: 2rem;
+  top: 30%;
+  left: 8%;
 }
 .article__professional__price {
   position: absolute;
@@ -474,8 +476,8 @@ body {
   font-size: 2.8rem;
   line-height: 3.7rem;
   color: #07ACE6;
-  margin-top: 6rem;
-  margin-left: 2rem;
+  bottom: 37%;
+  left: 13%;
 }
 .article__professional__offer {
   position: absolute;
@@ -483,13 +485,13 @@ body {
   font-weight: 700;
   font-size: 0.8rem;
   line-height: 0.9rem;
-  margin-top: 10rem;
-  margin-left: 2rem;
+  bottom: 30%;
+  left: 16%;
 }
 .article__professional__list {
   position: absolute;
-  margin-left: 13rem;
-  margin-top: 4rem;
+  right: 2%;
+  top: 20%;
   list-style: none;
   position: absolute;
   font-family: "Open Sans";
@@ -514,7 +516,7 @@ body {
   padding-right: 3.6rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  left: 27%;
+  left: 25%;
   bottom: -10%;
 }
 
@@ -525,7 +527,7 @@ body {
   border: 1px solid #55DFB4;
   border-radius: 1.1rem;
   margin-top: 4rem;
-  margin-left: 2.56rem;
+  margin-left: 3rem;
 }
 .article__premium__title {
   position: absolute;
@@ -533,8 +535,8 @@ body {
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 1.5rem;
-  margin-top: 5.5rem;
-  margin-left: 3.1rem;
+  top: 30%;
+  left: 15%;
 }
 .article__premium__price {
   position: absolute;
@@ -543,8 +545,8 @@ body {
   font-size: 2.87rem;
   line-height: 3.8rem;
   color: #55DFB4;
-  margin-left: 3.1rem;
-  margin-top: 7rem;
+  bottom: 37%;
+  left: 16%;
 }
 .article__premium__offer {
   position: absolute;
@@ -552,13 +554,13 @@ body {
   font-weight: 700;
   font-size: 0.8rem;
   line-height: 0.9rem;
-  margin-top: 11rem;
-  margin-left: 3.3rem;
+  bottom: 30%;
+  left: 16%;
 }
 .article__premium__list {
   position: absolute;
-  margin-left: 11rem;
-  margin-top: 4rem;
+  right: 3%;
+  top: 25%;
   list-style: none;
   position: absolute;
   font-family: "Open Sans";
@@ -590,18 +592,93 @@ body {
 @media screen and (min-width: 1000px) {
   .article {
     display: flex;
-    justify-content: space-between;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
   .article__basic {
     margin: 0%;
+    width: 23rem;
+    height: 30rem;
+  }
+  .article__basic__title {
+    top: 5%;
+    left: 45%;
+  }
+  .article__basic__price {
+    top: 14%;
+    left: 41%;
+  }
+  .article__basic__list {
+    left: 5%;
+    top: 45%;
+    text-align: center;
+  }
+  .article__basic__list__date {
+    margin-bottom: 1rem;
+  }
+  .article__basic__button {
+    bottom: -5%;
+    left: 30%;
   }
   .article__professional {
     margin: 0%;
+    width: 23rem;
+    height: 30rem;
+  }
+  .article__professional__title {
+    top: 5%;
+    left: 35%;
+  }
+  .article__professional__price {
+    top: 14%;
+    left: 38%;
+  }
+  .article__professional__offer {
+    top: 30%;
+    left: 40%;
+  }
+  .article__professional__list {
+    left: 5%;
+    top: 45%;
+    text-align: center;
+  }
+  .article__professional__list__date {
+    margin-bottom: 1rem;
+  }
+  .article__professional__button {
+    bottom: -5%;
+    left: 30%;
   }
   .article__premium {
     margin: 0%;
+    width: 23rem;
+    height: 30rem;
+  }
+  .article__premium__title {
+    top: 5%;
+    left: 40%;
+  }
+  .article__premium__price {
+    top: 14%;
+    left: 41%;
+  }
+  .article__premium__offer {
+    top: 30%;
+    left: 42%;
+  }
+  .article__premium__list {
+    left: 5%;
+    top: 45%;
+    text-align: center;
+  }
+  .article__premium__list__date {
+    margin-bottom: 1rem;
+  }
+  .article__premium__button {
+    bottom: -5%;
+    left: 30%;
   }
 }
 .section__question__title {
@@ -703,6 +780,9 @@ body {
   margin-left: 1rem;
   color: #08A6E4;
 }
+.footer__container__title2 {
+  display: none;
+}
 .footer__container__copyright {
   font-family: "Open Sans";
   font-weight: 400;
@@ -724,10 +804,13 @@ body {
 }
 
 @media screen and (min-width: 1000px) {
-  .footer__container__title {
+  .footer__container {
+    margin-left: 4rem;
+  }
+  .footer__container .footer__container__title {
     display: none;
   }
-  .footer__container__title2 {
+  .footer__container .footer__container__title2 {
     font-family: "Raleway";
     font-weight: 300;
     font-size: 1.6rem;
@@ -735,5 +818,12 @@ body {
     margin-top: 1rem;
     margin-left: 1rem;
     color: #08A6E4;
+    display: block;
+  }
+  .footer__twitter {
+    right: 13%;
+  }
+  .footer__facebook {
+    right: 9%;
   }
 }/*# sourceMappingURL=styles.css.map */
