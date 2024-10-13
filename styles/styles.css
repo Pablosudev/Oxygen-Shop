@@ -13,6 +13,12 @@ body {
   height: 70px;
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
 }
+.navbar__titlescreen {
+  display: none;
+}
+.navbar__ul {
+  display: none;
+}
 .navbar__title {
   display: inline-block;
   margin-top: 1rem;
@@ -31,14 +37,6 @@ body {
   position: relative;
 }
 
-@media screen and (max-width: 999px) {
-  .navbar__titlescreen {
-    display: none;
-  }
-  .navbar__ul {
-    display: none;
-  }
-}
 @media screen and (min-width: 1000px) {
   .navbar {
     display: inline-flex;
@@ -258,14 +256,39 @@ body {
   border-radius: 2%;
   position: relative;
 }
-.sectioncard__cardfirst__macbook {
+.sectioncard__cardfirst__img__rectangle {
+  display: none;
+}
+.sectioncard__cardfirst__img__macbook2 {
+  display: none;
+}
+.sectioncard__cardfirst__img__macbook {
   margin-top: 2.5rem;
   margin-left: 0.4rem;
   position: absolute;
 }
-.sectioncard__cardfirst__rectanglepink {
+.sectioncard__cardfirst__img__rectanglepink {
   margin-top: 1.3rem;
   margin-left: 7rem;
+}
+.sectioncard__cardfirst__info__title {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  margin-top: 4rem;
+  margin-right: 5rem;
+}
+.sectioncard__cardfirst__info__text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  text-align: start;
+  margin-top: 2rem;
+  margin-left: 1.4rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
 }
 .sectioncard__cardfirst__title {
   font-family: "Raleway";
@@ -286,18 +309,25 @@ body {
   margin-right: 2rem;
   margin-bottom: 1rem;
 }
-.sectioncard__cardfirst__iphone {
+.sectioncard__cardsecond {
+  background-color: white;
+  margin-bottom: 3rem;
+  border: 1px solid #E8E9ED;
+  border-radius: 2%;
+  position: relative;
+}
+.sectioncard__cardsecond__img__iphone {
   width: 10.9rem;
   height: 8.4rem;
   margin-top: 1.5rem;
   position: absolute;
 }
-.sectioncard__cardfirst__ellipseblue {
+.sectioncard__cardsecond__img__ellipseblue {
   width: 8.25rem;
   height: 8.23rem;
   margin-top: 1rem;
 }
-.sectioncard__cardfirst__titlesecond {
+.sectioncard__cardsecond__info__title {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 1.8rem;
@@ -306,7 +336,7 @@ body {
   text-align: start;
   margin-left: 1.4rem;
 }
-.sectioncard__cardfirst__secondtext {
+.sectioncard__cardsecond__info__text {
   text-align: start;
   font-family: "Open Sans";
   font-weight: 400;
@@ -358,7 +388,64 @@ body {
   }
   .sectioncard__cardfirst {
     width: 70%;
+    height: 23rem;
     margin-left: 15%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    justify-content: space-between;
+  }
+  .sectioncard__cardfirst__img__rectanglepink {
+    display: none;
+  }
+  .sectioncard__cardfirst__img__rectangle {
+    display: block;
+    position: relative;
+    top: 10%;
+    right: 40%;
+  }
+  .sectioncard__cardfirst__img__macbook2 {
+    display: block;
+    position: absolute;
+    width: 24rem;
+    height: 13.6rem;
+    bottom: 10%;
+    right: 14%;
+  }
+  .sectioncard__cardfirst__img__macbook {
+    display: none;
+  }
+  .sectioncard__cardfirst__info {
+    text-align: start;
+    width: 36%;
+    height: 70%;
+    border-bottom: 4px solid #FB3B64;
+  }
+  .sectioncard__cardfirst__info__title {
+    margin-left: 1.5rem;
+  }
+  .sectioncard__cardsecond {
+    width: 70%;
+    height: 23rem;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sectioncard__cardsecond__info {
+    width: 36%;
+    text-align: end;
+    margin-top: 3rem;
+  }
+  .sectioncard__cardsecond__img {
+    padding-left: 2rem;
+  }
+  .sectioncard__cardsecond__img__iphone {
+    width: 26.6rem;
+    height: 20rem;
+  }
+  .sectioncard__cardsecond__img__ellipseblue {
+    width: 20rem;
+    height: 20rem;
   }
   .sectioncard__cardthird {
     display: inline-flex;
@@ -681,7 +768,7 @@ body {
     left: 30%;
   }
 }
-.section__question__title {
+.section__question__article__title {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 2.5rem;
@@ -689,19 +776,19 @@ body {
   margin-left: 1.8rem;
   margin-top: 3rem;
 }
-.section__question__date {
+.section__question__article__date {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.3rem;
   margin-left: 1.8rem;
 }
-.section__question__container {
+.section__question__article__container {
   margin-top: 1rem;
   margin-left: 1.5rem;
   position: relative;
 }
-.section__question__container__date {
+.section__question__article__container__date {
   display: inline-block;
   font-family: "Open Sans";
   font-weight: 600;
@@ -711,7 +798,7 @@ body {
   margin-top: 0.5rem;
   margin-left: 2rem;
 }
-.section__question__container__logo {
+.section__question__article__container__logo {
   position: absolute;
   margin-top: 0.4rem;
 }
@@ -762,6 +849,17 @@ body {
   margin-top: 2rem;
 }
 
+@media screen and (min-width: 1000px) {
+  .section__question {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+  }
+  .section__question__box {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .footer {
   box-shadow: 0px -5px 40px 0px rgba(0, 0, 0, 0.2);
   margin-top: 2rem;

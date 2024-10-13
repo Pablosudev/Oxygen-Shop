@@ -1,43 +1,46 @@
 .section__question{
 
-    &__title{
-        font-family: "Raleway";
-        font-weight: 400;
-        font-size: 2.5rem;
-        line-height: 2.9rem;
-        margin-left: 1.8rem;
-        margin-top: 3rem;
-    }
-
-    &__date{
-        font-family: "Open Sans";
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 1.3rem;
-        margin-left: 1.8rem;
-    }
+    &__article{
+        &__title{
+            font-family: "Raleway";
+            font-weight: 400;
+            font-size: 2.5rem;
+            line-height: 2.9rem;
+            margin-left: 1.8rem;
+            margin-top: 3rem;
+        }
     
-    &__container{
-            margin-top: 1rem;
-            margin-left: 1.5rem;
-            position: relative;
-
         &__date{
-            display: inline-block;
             font-family: "Open Sans";
-            font-weight: 600;
+            font-weight: 400;
             font-size: 1rem;
-            line-height: 1.2rem;
-            color:#A5A5A5;
-            margin-top: 0.5rem;
-            margin-left: 2rem;
+            line-height: 1.3rem;
+            margin-left: 1.8rem;
         }
+        
+        &__container{
+                margin-top: 1rem;
+                margin-left: 1.5rem;
+                position: relative;
     
-        &__logo{
-            position: absolute;
-            margin-top: 0.4rem;
+            &__date{
+                display: inline-block;
+                font-family: "Open Sans";
+                font-weight: 600;
+                font-size: 1rem;
+                line-height: 1.2rem;
+                color:#A5A5A5;
+                margin-top: 0.5rem;
+                margin-left: 2rem;
+            }
+        
+            &__logo{
+                position: absolute;
+                margin-top: 0.4rem;
+            }
         }
     }
+    
 
     &__box{
         padding-top: 3rem;
@@ -95,3 +98,17 @@
     }
 
 }
+
+@media screen and (min-width: 1000px){
+    .section__question{
+        margin-top: 6rem;
+        display:flex;
+        justify-content: center;
+
+        &__box{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+    
