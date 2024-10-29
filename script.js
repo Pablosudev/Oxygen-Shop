@@ -34,7 +34,7 @@ options.forEach(optionData => {
 buttonCard.addEventListener("change", (event) => {
 
 
-    ------
+    
     let tipo = buttonCard.value
     if(buttonCard.value === 'EUR'){
         basicPrice.innerText="hola"
