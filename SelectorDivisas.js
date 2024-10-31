@@ -1,40 +1,4 @@
 
-
-
-
-const GetDataFromApi = async () =>{
-const currency = await fetch ("https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json");
-const dataFromApi = await currency.json();
-console.log(dataFromApi.eur.usd);
-
-
-
-//Doy funcionalidad al selector.
-buttonCard.addEventListener("change", (event) => {
-
-    let tipo = buttonCard.value
-    if(buttonCard.value === 'EUR'){
-        basicPrice.innerText="€ 0"
-        professionalPrice.innerText = "€" + 25 / dataFromApi.eur.usd 
-        premiumPrice.innerText = "€" + 60 / dataFromApi.eur.usd 
-    } else if (buttonCard.value === 'GBP'){
-        basicPrice.innerText="£ 0"
-        professionalPrice.innerText = "£" + dataFromApi.eur.gbp * 25
-        premiumPrice.innerText = "£" + dataFromApi.eur.gbp * 60
-    } else if (buttonCard.value === 'USD'){
-        basicPrice.innerText = "$ 0 "
-        professionalPrice.innerText = "$ 25"
-        premiumPrice.innerText = "$ 60"
-       
-    }
-
-
-})
-
-}
-
-GetDataFromApi();
-
 //Una vez vinculada la API de divisas, creo el botón selector que permitirá cambiar de divisa.
 const basicPrice = document.getElementById ("basicPrice")
 const professionalPrice = document.getElementById ("professionalPrice")
@@ -53,7 +17,34 @@ options.forEach(optionData => {
     option.textContent = optionData.text;
     buttonCard.appendChild(option);
 });
+const GetDataFromApi = async () =>{
+    const currency = await fetch ("https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json");
+    const dataFromApi = await currency.json();
+    console.log(dataFromApi.eur.usd);
+    //Doy funcionalidad al selector.
+    buttonCard.addEventListener("change", (event) => {
+    
+        if(buttonCard.value === 'EUR'){
+            basicPrice.innerText="€ 0"
+            professionalPrice.innerText = "€" + 25 / dataFromApi.eur.usd 
+            premiumPrice.innerText = "€" + 60 / dataFromApi.eur.usd 
+        } else if (buttonCard.value === 'GBP'){
+            basicPrice.innerText="£ 0"
+            professionalPrice.innerText = "£" + dataFromApi.eur.gbp * 25
+            premiumPrice.innerText = "£" + dataFromApi.eur.gbp * 60
+        } else if (buttonCard.value === 'USD'){
+            basicPrice.innerText = "$ 0 "
+            professionalPrice.innerText = "$ 25"
+            premiumPrice.innerText = "$ 60"
+           
+        }
+    
+    
+    })
+    
+} 
 
+GetDataFromApi();
 
 //Debajo de este código voy a ir colocando el HTML.
 priceCard.appendChild(buttonCard)

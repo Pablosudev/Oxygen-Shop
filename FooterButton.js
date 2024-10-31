@@ -1,15 +1,18 @@
 
 const buttonTop = document.getElementById("buttonTop")
 
-buttonTop.addEventListener('scroll',(event) => {
-    const returnToTop = buttonTop;
-    if (document.body.scrollTop > 200 || documentElement.scrollTop > 200) {
-        buttonTop.style.display = 'block' ;
-    } else {
-        buttonTop.style.display = 'none';
+
+
+function scrolllFunction () {
+    if (document.documentElement.scrollTop >= 95) {
+        buttonTop.style.display = "block";
+    } else{
+        buttonTop.style.display = "none";
     }
-    
-}) ;
+}
+
+
+window.addEventListener("scroll", scrolllFunction)
 
 buttonTop.addEventListener('click', () => {
     setTimeout(() => {
