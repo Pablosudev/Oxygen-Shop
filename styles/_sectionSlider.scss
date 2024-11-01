@@ -1,0 +1,32 @@
+
+.slider{
+   display: none;
+
+    &__art{
+        display: block;
+    }
+    &__books{
+        display: none;
+    }
+    &__laptops{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px){
+
+    .slider{
+        display: block;
+     
+         &__art{
+             display: block;
+             width: 200px;
+         }
+         &__books{
+             display: none;
+         }
+         &__laptops{
+             display: none;
+         }
+     }
+}
