@@ -977,8 +977,10 @@ body {
   }
   .slider__books {
     display: none;
+    width: 200px;
   }
   .slider__laptops {
     display: none;
+    width: 200px;
   }
 }/*# sourceMappingURL=styles.css.map */
