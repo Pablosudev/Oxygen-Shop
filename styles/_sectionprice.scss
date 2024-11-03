@@ -7,6 +7,10 @@
     font-size: 2rem;
     line-height: 3.6rem;
 }
+.currency{
+    position:absolute;
+    left: 42%;
+}
 .article__basic{
     border: 1px solid #FB3B64;
     border-radius: 1.1rem;
@@ -224,6 +228,10 @@
 
 
 @media screen and (min-width: 1000px){
+
+    .currency{
+        display: none;
+    }
 
     .article{
         display: flex;

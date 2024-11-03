@@ -4,7 +4,7 @@ const basicPrice = document.getElementById ("basicPrice")
 const professionalPrice = document.getElementById ("professionalPrice")
 const premiumPrice = document.getElementById ("premiumPrice")
 const priceCard = document.getElementById("price")
-const buttonCard = document.createElement("select")
+const buttonCard = document.getElementById("buttonCard")
 const options = [
     { value: 'USD', text: 'USD'},
     { value: 'EUR', text: 'EUR'},
@@ -26,26 +26,22 @@ const GetDataFromApi = async () =>{
     
         if(buttonCard.value === 'EUR'){
             basicPrice.innerText="€ 0"
-            professionalPrice.innerText = "€" + 25 / dataFromApi.eur.usd 
-            premiumPrice.innerText = "€" + 60 / dataFromApi.eur.usd 
+            professionalPrice.innerText = "€" + Math.floor(25 / dataFromApi.eur.usd) 
+            premiumPrice.innerText = "€" + Math.floor(60 / dataFromApi.eur.usd) 
         } else if (buttonCard.value === 'GBP'){
             basicPrice.innerText="£ 0"
-            professionalPrice.innerText = "£" + dataFromApi.eur.gbp * 25
-            premiumPrice.innerText = "£" + dataFromApi.eur.gbp * 60
+            professionalPrice.innerText = "£" + Math.floor(dataFromApi.eur.gbp * 25)
+            premiumPrice.innerText = "£" + Math.floor(dataFromApi.eur.gbp * 60)
         } else if (buttonCard.value === 'USD'){
             basicPrice.innerText = "$ 0 "
             professionalPrice.innerText = "$ 25"
-            premiumPrice.innerText = "$ 60"
-           
-        }
-    
-    
-    })
-    
+            premiumPrice.innerText = "$ 60" 
+        }  
+    })  
 } 
 
 GetDataFromApi();
 
 //Debajo de este código voy a ir colocando el HTML.
-priceCard.appendChild(buttonCard)
+
 
