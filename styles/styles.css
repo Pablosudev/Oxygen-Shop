@@ -143,7 +143,6 @@ body {
 .header__image {
   margin-top: 15%;
 }
-
 @media screen and (min-width: 1000px) {
   .header__title {
     font-size: 3rem;
@@ -254,7 +253,7 @@ body {
     font-size: 2.2rem;
     line-height: 2.6rem;
   }
-  .section__prueba {
+  .section__dates {
     display: flex;
     justify-content: center;
     margin-top: 5rem;

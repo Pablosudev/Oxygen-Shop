@@ -15,8 +15,12 @@ button.addEventListener('click', (event) => {
         inputName: name,
         inputName: email
     };
+    checkInputEmail(email)
+    if(checkInputEmail(email) === false){
+        alert ("rellenar email")
+    }
 
-    fetch('https://jsonplaceholder.typicode.com/guide/', {
+    fetch('https://jsonplaceholder.typicode.com/posts', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -37,10 +41,12 @@ button.addEventListener('click', (event) => {
         console.error('Error:',error);
         alert('Hubo un problema al enviar los datos');
     });
+
 });
 
-function inputEmail(correo) {
+function checkInputEmail(correo) {
     const validacion = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return validacion.test(correo);
-
+    
 }
+checkInputEmail(email)
