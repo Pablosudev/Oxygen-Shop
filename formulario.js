@@ -37,13 +37,10 @@ button.addEventListener('click', (event) => {
         console.error('Error:',error);
         alert('Hubo un problema al enviar los datos');
     });
-//Función para valdiar el correo.
-    function inputEmail(correo) {
-        const validacion = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return validacion.test(correo);
-    
-    }
-
-   
 });
 
+function inputEmail(correo) {
+    const validacion = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return validacion.test(correo);
+
+}

@@ -21,7 +21,7 @@ const GetDataFromApi = async () =>{
     const currency = await fetch ("https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json");
     const dataFromApi = await currency.json();
     console.log(dataFromApi.eur.usd);
-    //Doy funcionalidad al selector.
+    
     buttonCard.addEventListener("change", (event) => {
     
         if(buttonCard.value === 'EUR'){
@@ -41,7 +41,5 @@ const GetDataFromApi = async () =>{
 } 
 
 GetDataFromApi();
-
-//Debajo de este código voy a ir colocando el HTML.
 
 
