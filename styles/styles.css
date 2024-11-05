@@ -143,6 +143,7 @@ body {
 .header__image {
   margin-top: 15%;
 }
+
 @media screen and (min-width: 1000px) {
   .header__title {
     font-size: 3rem;
@@ -163,6 +164,59 @@ body {
   .header__pc {
     width: 100%;
     height: auto;
+  }
+  .header__popUp {
+    width: 60%;
+    height: 20rem;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    border-color: #08A6E4;
+  }
+  .header__popUp__title {
+    text-align: center;
+    font-family: "Raleway";
+    font-weight: 400;
+    color: #08A6E4;
+    border-color: #08A6E4;
+    margin-top: 6%;
+    margin-bottom: 1rem;
+  }
+  .header__popUp__buttonClose {
+    position: absolute;
+    right: 2%;
+    top: 4%;
+    border-radius: 100%;
+    border-color: transparent;
+    background-color: #08A6E4;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+  .header__popUp__buttonSend {
+    width: 17.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 2.5rem;
+    background-color: #08A6E4;
+    border: transparent;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+  }
+  .header__popUp__input {
+    margin-top: 2rem;
+  }
+  .header__popUp__email {
+    font-family: "Raleway";
+    font-weight: 400;
+    color: #08A6E4;
   }
 }
 @media screen and (max-width: 999px) {
@@ -704,7 +758,9 @@ body {
 
 @media screen and (min-width: 1000px) {
   .currency {
-    display: none;
+    display: block;
+    position: absolute;
+    left: 49%;
   }
   .article {
     display: flex;

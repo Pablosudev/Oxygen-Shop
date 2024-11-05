@@ -13,6 +13,7 @@
         <title>Oxygen Shop</title>
     </head>
     <body>
+        
         <nav class="navbar">
         <h1 class="navbar__title">OXIGENShop</h1>
         <h1 class="navbar__titlescreen">OXIGEN Shop</h1>
@@ -39,12 +40,13 @@
             <button class="header__button">Open your shop</button>
             <img class="header__image" src="Imagenes/Header/Background 1.png" alt="setup"/>
             <img class="header__pc" src="Imagenes/media query/Background.png" alt="Background"/>
-            <!--<article class="header__popUp" id="popUp">
+            <dialog class="header__popUp" id="popUp">
                 <h1 class="header__popUp__title">Suscribe to our newsletter</h1>
-                <label class="header__popUp__email" for="email"></label>
-                <input class="header__popUp__input" type="email">
-                <button class="header__popUp__button" id="buttonClose">X</button>
-            </article>-->
+                <label class="header__popUp__email" for="email"> ENTER  YOUR EMAIL</label>
+                <input id="inputPopUp" class="header__popUp__input" type="email">
+                <button class="header__popUp__buttonClose" id="buttonClose">X</button>
+                <button id="buttonEmail" class="header__popUp__buttonSend">Send Email</button>
+            </dialog>
         </header>
         <section class="section">
             <h1 class="section__title">The most popular sales platform in country</h1>
@@ -104,54 +106,54 @@
             </article>   
         </section>
         <section class="sectionprice" id="price">     
-            <h1 class="title__price">Pricing</h1>
-            <select class="currency" name="Divisas" id="buttonCard"></select>
-        <article class="article">
-            <article class="article__basic">
-                <h2 class="article__basic__title">Basic</h2>
-                <p id="basicPrice" class="article__basic__price">$ 0</p>
-                <ul class="article__basic__list">
-                    <li class="article__basic__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>   100MB HDD</li>
-                    <li class="article__basic__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>   1 Subdomain</li>
-                    <li class="article__basic__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>   2 E-mails</li>
-                    <li class="article__basic__list__date"> <img src="Imagenes/Cards/Cross.png" alt="Cross"/>   Two years license</li>
-                    <li class="article__basic__list__date"> <img src="Imagenes/Cards/Cross.png" alt="Cross"/>   Full support</li>
-                </ul>
-                <button class="article__basic__button">Begin</button>
+                <h1 class="title__price">Pricing</h1>
+                <select class="currency" name="Divisas" id="buttonCard"></select>
+            <article class="article">
+                <article class="article__basic">
+                    <h2 class="article__basic__title">Basic</h2>
+                    <p id="basicPrice" class="article__basic__price">$ 0</p>
+                    <ul class="article__basic__list">
+                        <li class="article__basic__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>   100MB HDD</li>
+                        <li class="article__basic__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>   1 Subdomain</li>
+                        <li class="article__basic__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>   2 E-mails</li>
+                        <li class="article__basic__list__date"> <img src="Imagenes/Cards/Cross.png" alt="Cross"/>   Two years license</li>
+                        <li class="article__basic__list__date"> <img src="Imagenes/Cards/Cross.png" alt="Cross"/>   Full support</li>
+                    </ul>
+                    <button class="article__basic__button">Begin</button>
+                </article>
+                <article class="article__professional">
+                    <h2 class="article__professional__title">Professional</h2>
+                    <p id="professionalPrice" class="article__professional__price">$ 25</p>
+                    <p class="article__professional__offer">Limited offer</p>
+                    <ul class="article__professional__list">
+                        <li class="article__professional__list__date"><img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  500MB HDD</li>
+                        <li class="article__professional__list__date"><img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  2 Subdomains</li>
+                        <li class="article__professional__list__date"><img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  5 E-mails</li>
+                        <li class="article__professional__list__date"><img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  One year license</li>
+                        <li class="article__professional__list__date"><img src="Imagenes/Cards/Cross.png" alt="Cross"/>  Full support</li>
+                    </ul>
+                    <button class="article__professional__button">Begin</button>
+                </article>
+                <article class="article__premium">
+                    <h2 class="article__premium__title">Premium</h2>
+                    <p id="premiumPrice" class="article__premium__price">$60</p>
+                    <p class="article__premium__offer">Limited offer</p>
+                    <ul class="article__premium__list">
+                        <li class="article__premium__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  2 GB HDD</li>
+                        <li class="article__premium__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  5 Subdomains</li>
+                        <li class="article__premium__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  20 E-mails</li>
+                        <li class="article__premium__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  Two years license</li>
+                        <li class="article__premium__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  Full support</li>
+                    </ul>
+                    <button class="article__premium__button">Begin</button>
+                </article>
             </article>
-            <article class="article__professional">
-                <h2 class="article__professional__title">Professional</h2>
-                <p id="professionalPrice" class="article__professional__price">$ 25</p>
-                <p class="article__professional__offer">Limited offer</p>
-                <ul class="article__professional__list">
-                    <li class="article__professional__list__date"><img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  500MB HDD</li>
-                    <li class="article__professional__list__date"><img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  2 Subdomains</li>
-                    <li class="article__professional__list__date"><img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  5 E-mails</li>
-                    <li class="article__professional__list__date"><img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  One year license</li>
-                    <li class="article__professional__list__date"><img src="Imagenes/Cards/Cross.png" alt="Cross"/>  Full support</li>
-                </ul>
-                <button class="article__professional__button">Begin</button>
-            </article>
-            <article class="article__premium">
-                <h2 class="article__premium__title">Premium</h2>
-                <p id="premiumPrice" class="article__premium__price">$60</p>
-                <p class="article__premium__offer">Limited offer</p>
-                <ul class="article__premium__list">
-                    <li class="article__premium__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  2 GB HDD</li>
-                    <li class="article__premium__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  5 Subdomains</li>
-                    <li class="article__premium__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  20 E-mails</li>
-                    <li class="article__premium__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  Two years license</li>
-                    <li class="article__premium__list__date"> <img src="Imagenes/Cards/Checkbox.png" alt="Checkbox"/>  Full support</li>
-                </ul>
-                <button class="article__premium__button">Begin</button>
-            </article>
-        </article>
         </section>
         <section id="slider" class="slider">
             <button id="buttonLeft" class="slider__buttonLeft"> < </button>
             <img class="slider__art" id="Art" src="Slider/iso-republic-art-supplies-010.png" alt="ImagenArt">
             <img class="slider__books" id="Books" src="Slider/iso-republic-books-plant.jpg" alt="ImagenBooks">
-            <img class="slider__laptops" id="Laptops" src="Slider/picography-delicate-hands-using-laptops.jpg" alt="ImagenLaptops">
+            <img class="slider__laptops" id="Laptops" src="Slider/picography-delicate-hands-using-laptops.jpg" alt="ImageLaptops">
             <button id="buttonRight" class="slider__buttonRight"> > </button>
             <button id="buttonLaptops" class="slider__buttonLaptops"></button>
             <button id="buttonBooks" class="slider__buttonBooks"></button>
@@ -183,7 +185,6 @@
                 <button id="buttonSend" class="section__question__button">Send</button>
             </div>
             </article>
-            <script src="formulario.js"></script>
         </section>
 
         <footer class="footer">
@@ -194,11 +195,17 @@
                 <h2 class="footer__container__title2">OXIGEN Shop</h2>
                 <p class="footer__container__copyright">2022 OXYGEN, All Rights Reserved</p>
             </div>
-            <button id="buttonTop">↑</button>
-            <script src="FooterButton.js"></script>
+            <button id="buttonTop">↑</button>  
         </footer>
-        <script src="Slider.js"></script>
-        <script src ="SelectorDivisas.js"></script>
+        
+        
         <script src="MenuNavbar.js"></script>
+        <script src="popup.js"></script>
+        <script src ="SelectorDivisas.js"></script>
+        <script src="Slider.js"></script>
+        <script src="formulario.js"></script>
+        <script src="FooterButton.js"></script>
+
+       
     </body>
 </html>

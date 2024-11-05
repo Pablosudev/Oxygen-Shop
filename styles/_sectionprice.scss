@@ -230,7 +230,10 @@
 @media screen and (min-width: 1000px){
 
     .currency{
-        display: none;
+        display: block;
+        position:absolute;
+        left: 49%;
+    
     }
 
     .article{

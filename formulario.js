@@ -13,11 +13,12 @@ button.addEventListener('click', (event) => {
 
     const formulary = {
         inputName: name,
-        inputName: email
+        inputEmail: email
     };
     checkInputEmail(email)
     if(checkInputEmail(email) === false){
-        alert ("rellenar email")
+        alert ("Rellenar email")
+        inputEmail.style.border ="2px solide red"
     }
 
     fetch('https://jsonplaceholder.typicode.com/posts', {
